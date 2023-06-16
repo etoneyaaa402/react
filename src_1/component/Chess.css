@@ -1,0 +1,22 @@
+#chessboard {
+    margin: 0px auto 0px auto;
+    display: grid; /*создаю сетку grid для разметки доски*/
+    grid-template-columns: repeat(8, 62.5px);/*создаю 8 колонок и строк одного размера*/
+    grid-template-rows: repeat(8, 62.5px);
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+#chessboard .tile {
+    width: 62.5px;
+    height: 62.5px;
+}
+
+#chessboard .black-tile {
+    background-color: #779556;
+}
+
+#chessboard .white-tile {
+    background-color: #ebecd0;
+}

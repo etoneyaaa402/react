@@ -1,0 +1,11 @@
+ul{
+    list-style-type: none;
+    display: inline;
+    margin: auto;
+  }
+li{
+    display: inline;
+    margin: 10px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

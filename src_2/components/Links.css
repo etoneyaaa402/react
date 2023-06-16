@@ -1,0 +1,20 @@
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(212, 212, 236);
+}
+.jobmenu{
+    background-color: rgb(34, 34, 147);
+    padding: 10px 10px 30px 10px;
+    width: 500px;
+    margin: 20px auto 0px auto;
+
+}
+.jobmenu__link{
+    color: aliceblue;
+    padding: 10px;
+}

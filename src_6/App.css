@@ -1,0 +1,260 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 20px;
+  background-color: #61dafb;
+  border-radius: 15px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+form p {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.gender-field {
+  flex-direction: row;
+  align-items: center;
+}
+.gender-field label {
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+.gender-field input {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+label {
+  display: inline-block;
+  font-family: "Helvetica";
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+input {
+  min-height: 30px;
+  font-size: 16px;
+}
+
+select {
+  height: 25px;
+  padding: 0 5px;
+}
+
+input[type="submit"] {
+  max-width: 200px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: fuchsia;
+  border: none;
+  cursor: pointer;
+}
+
+.phone_input {
+  margin-bottom: 10px;
+}
+.phone_input input[type="text"] {
+  font-size: 16px;
+  margin: 0;;
+  max-width: 300px;
+  height: 30px;
+  outline: none;
+}
+
+.select_countries {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 0px 40px 0px 0;
+  height: 30px;
+  outline: none;
+  background-repeat: no-repeat;
+  background-size: 25px 15px;
+  background-position: 75% 6px;
+}
+
+.birthdayDate {
+  display: flex;
+}
+
+.birthdayDate .field {
+  padding-right: 20px;
+}
+
+.universityInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.universityInfo .field input {
+  max-width: 100px;
+  margin-right: 15px;
+}
+
+.warning {
+  text-decoration: underline;
+  display: none;
+}
+
+.safetyBar {
+  display: none;
+}
+
+.progressBar {
+  width: 200px;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #e5e5e5;
+  margin-bottom: 20px;
+}
+.successLine {
+  width: 0%;
+  height: 20px; 
+  background-color: blue;
+}
+
+.studentInfoTable {
+  max-width: 600px;
+  margin: 10px auto;
+  border-collapse: collapse;
+}
+.studentInfoTable td{
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.notes {
+  max-width: 400px;
+  background-color: fuchsia;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.noteDate {
+  display: flex;
+}
+
+.noteDate .field{
+  width: 50px;
+  margin-right: 30px;
+}
+
+.noteContent .field textarea {
+  font-size: 16px;
+  padding: 5px;
+  font-family: "Verdana";
+}
+
+.noteBtn {
+  text-align: left;
+}
+
+.noteBtn button {
+  background-color: #61dafb;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.notesList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.note {
+  text-align: left;
+  width: 300px;
+  min-height: 200px;
+  background-color: #61dafb;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 15px;
+}
+
+.note .name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.note .date {
+  margin: 10px 0;
+  border-bottom: 1px solid black;
+}
+
+.note .noteWarning {
+  font-weight: bold;
+}
+
+.controlButtons button {
+  border: 2px solid fuchsia;
+  background-color: #fff;
+  padding: 5px 10px;
+  margin: 0 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
